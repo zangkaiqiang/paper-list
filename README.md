@@ -6,3 +6,5 @@
 ### Feature Extraction
 The mask obtained from the previous steps represented lymphocytes as digital number 1 and other areas as digital number 0. This mask was multiplied with the histogram equalized grayscale image of the RGB image shown in figure 2(a).
 Histogram equalization was performed to normalize varying illumination con- ditions. Eighteen texture features were extracted for every detected cell region [17,18,3]. These are – Autocorrelation, Contrast, Correlation, Cluster Promi- nence, Cluster Shade, Dissimilarity, Energy, Entropy, Homogeneity, Maximum probability, Variance, Sum average, Sum variance, Sum entropy, Difference vari- ance, Difference entropy, Information measure of correlation, Normalized inverse difference moment [17,18,3]. These features were derived from the gray level co- occurence matrix for four values of offset and four values of direction. Average of these eight values was used as feature value in classification.
+
+![test](./img/l.png)
